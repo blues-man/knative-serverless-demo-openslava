@@ -1,6 +1,6 @@
 == Serverless with OpenShift Demo
 
-This is a tutorial to learn Knative on https://www.okd.io/minishift/[Minishift], a containerized OKD cluster to develop and run Applications locally, with a sample serverless demo for Openslava 2018.
+This is a tutorial to learn Knative on https://www.okd.io/minishift/[Minishift], a containerized OKD cluster to develop and run Applications locally, with a sample serverless demo for https://www.openslava.sk/2018/[Openslava 2018] conference.
 
 All the content is adapted from great https://github.com/kameshsampath[Kamesh Sampath] https://github.com/redhat-developer-demos/knative-minishift[examples] and blog posts at https://blog.openshift.com/knative-serving-your-serverless-services/[OpenShift blogs]
 
