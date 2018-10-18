@@ -221,14 +221,14 @@ If you'd like to view the available sample apps and deploy one of your choosing,
 [sources,bash]
 -----
 
-kubectl delete configurations.serving.knative.dev --all
-kubectl delete revisions.serving.knative.dev --all
-kubectl delete routes.serving.knative.dev --all
-kubectl delete services.serving.knative.dev --all
+oc delete configurations.serving.knative.dev --all
+oc delete revisions.serving.knative.dev --all
+oc delete routes.serving.knative.dev --all
+oc delete services.serving.knative.dev --all
 
 (or)
 
-kubectl delete all --all -n myproject
+oc delete all --all -n myproject
 
 -----
 
