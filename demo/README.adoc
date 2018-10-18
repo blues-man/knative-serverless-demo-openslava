@@ -83,15 +83,15 @@ oc apply -f route/route_all_rev1.yaml
 
 The following are some useful commands
 
-- Get all **Knative services** on project **myproject** `kubectl -nmyproject get service.serving.knative.dev`
-- Get all **Knative configurations** on project **myproject** `kubectl -nmyproject get configuration.serving.knative.dev`
-- Get all **Knative routes** on project **myproject** `kubectl -nmyproject get route.serving.knative.dev`
-- Get all **Knative revisions** on project **myproject** `kubectl -nmyproject get revision.serving.knative.dev`
+- Get all **Knative services** on project **myproject** `oc -nmyproject get service.serving.knative.dev`
+- Get all **Knative configurations** on project **myproject** `oc -nmyproject get configuration.serving.knative.dev`
+- Get all **Knative routes** on project **myproject** `oc -nmyproject get route.serving.knative.dev`
+- Get all **Knative revisions** on project **myproject** `oc -nmyproject get revision.serving.knative.dev`
 
 [TIP]
 ====
 If you need to get the specific service,configuration,route or revision etc., the add the name to the end of the commands above
-e.g to get a service named **foo**:
+e.g to get our service named **greeter**:
 
-`oc -nmyproject get service.serving.knative.dev foo`
+`oc -n myproject get service.serving.knative.dev greeter`
 ====
