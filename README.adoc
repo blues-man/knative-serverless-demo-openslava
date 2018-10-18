@@ -1,5 +1,4 @@
-Serverless with OpenShift Demo
---------------------
+== Serverless with OpenShift Demo
 
 This is a tutorial to learn Knative on https://www.okd.io/minishift/[Minishift], a containerized OKD cluster to develop and run Applications locally, with a sample serverless demo for Openslava 2018.
 
@@ -235,4 +234,4 @@ kubectl delete all --all -n myproject
 
 == Run Demo
 
-Follow instructions at https://github.com/blues-man/knative-serverless-demo-openslava/demo/README.doc to run a NodeJS sample.
+Follow instructions at https://github.com/blues-man/knative-serverless-demo-openslava/demo/README.adoc to run a NodeJS sample.
