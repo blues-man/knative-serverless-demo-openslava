@@ -4,7 +4,7 @@
 
 The sample code in this section helps you to deploy serverless workload using https://github.com/knative/docs/tree/master/serving[Knative-Serving] following configuration and route workflow.  The code also shows how to distribute the traffic across multiple revisions of a serverless workload.
 
-This repo folder has sources for Java and Node.
+This repo folder has NodeJS example.
 
 == Building and Deploying Application
 
