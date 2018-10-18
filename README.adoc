@@ -234,4 +234,4 @@ kubectl delete all --all -n myproject
 
 == Run Demo
 
-Follow instructions at https://github.com/blues-man/knative-serverless-demo-openslava/demo/README.adoc to run a NodeJS sample.
+Follow instructions at https://github.com/blues-man/knative-serverless-demo-openslava/blob/master/demo/README.adoc to run a NodeJS sample.
