@@ -53,6 +53,32 @@ cd $PROJECT_HOME
 bin/call.sh
 ----
 
+=== Split traffic by revisions
+
+==== 50-50
+
+[source,bash]
+----
+cd $PROJECT_HOME
+oc apply -f route/route_rev1-50_rev2-50.yaml
+----
+
+==== All traffic to Revision 2
+
+[source,bash]
+----
+cd $PROJECT_HOME
+oc apply -f route/route_all_rev2.yaml
+----
+
+==== All traffic to Revision 1
+
+[source,bash]
+----
+cd $PROJECT_HOME
+oc apply -f route/route_all_rev1.yaml
+----
+
 == Useful commands
 
 The following are some useful commands
