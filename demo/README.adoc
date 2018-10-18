@@ -93,5 +93,5 @@ The following are some useful commands
 If you need to get the specific service,configuration,route or revision etc., the add the name to the end of the commands above
 e.g to get a service named **foo**:
 
-`kubectl -nmyproject get service.serving.knative.dev foo`
+`oc -nmyproject get service.serving.knative.dev foo`
 ====
