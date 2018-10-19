@@ -4,7 +4,7 @@ set -e
 
 export IP_ADDRESS=$(oc get svc knative-ingressgateway -n istio-system -o 'jsonpath={.status.loadBalancer.ingress[0].ip}')
 
-export HOST_URL=$(kubectl get  routes.serving.knative.dev greeter -o jsonpath='{.status.domain}')
+export HOST_URL=$(oc get  routes.serving.knative.dev greeter -o jsonpath='{.status.domain}')
 
 while true
 do
