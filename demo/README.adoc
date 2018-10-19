@@ -49,7 +49,6 @@ oc apply -f config/configuration_rev2.yaml
 
 [source,bash]
 ----
-cd $PROJECT_HOME
 bin/call.sh
 ----
 
